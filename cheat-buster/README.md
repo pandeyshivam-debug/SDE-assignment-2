@@ -1,4 +1,4 @@
-# Cheat Buster 💔
+# Cheat Buster
 
 **Find out if your partner is on other "dating" apps.**
 
@@ -90,6 +90,7 @@ cheat-buster/
 │   ├── index.html      # Main web page
 │   ├── script.js       # Handles API requests and displaying results
 │   └── style.css       # Basic styling
+│   └── api.js          # Handles all axios logic
 │
 └── server/
     ├── controllers/
