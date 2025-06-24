@@ -23,7 +23,7 @@ export const searchUser = async (email, name) => {
         })
         return response.data
     } catch (err) {
-        // Let the calling code handle the error
+        // the calling code will handle the error
         throw err
     }
 }
