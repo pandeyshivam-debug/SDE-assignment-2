@@ -1,0 +1,28 @@
+{
+  "name": "vibecheck-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandeyshivam-debug/vibecheck-api.git"
+  },
+  "author": "shivam.pandey@minfytech.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pandeyshivam-debug/vibecheck-api/issues"
+  },
+  "homepage": "https://github.com/pandeyshivam-debug/vibecheck-api#readme",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.0"
+  }
+}
