@@ -67,7 +67,7 @@ Cheat Buster allows you to search an email address and see if it appears in a da
 
 ### 6. Error Handler 
 
-  ![alt text](./screenshots/empty-fields.png)
+  <img src="./screenshots/empty-fields.png" alt="empty-fields" width="400"/>
 
 - **Route**: `GET /api/search`
 - **Handler**: `searchUser` (`user.controller.js`)
