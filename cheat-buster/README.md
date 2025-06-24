@@ -34,19 +34,44 @@ Cheat Buster allows you to search an email address and see if it appears in a da
   ![alt text](./screenshots/data.png)
 
 
-### 3. API Endpoint
+### 3. Implemented Request Throttling
+
+  ![alt text](./screenshots/searching.png)
+
 
 - **Route**: `GET /api/search?email=...`
 - **Handler**: `searchUser` (`user.controller.js`)
-- **How**:
-  - Validates the email query parameter.
-  - Looks up the user by email in the MongoDB database.
-  - **If found**: Returns user details (`firstName`, `lastName`, `age`, `city`, `picture`).
-  - **If not found**: Returns a "safe" message.
-  - Handles input validation and server errors gracefully.
 
-  ![alt text](./screenshots/200.png)
-  ![alt text](./screenshots/404.png)
+---
+
+### 4. Search User by Name and Email
+
+  ![alt text](./screenshots/busted-name.png)
+  ![alt text](./screenshots/busted-email.png)
+
+
+- **Route**: `GET /api/search?email=...`
+- **Route**: `GET /api/search?name=...`
+- **Handler**: `searchUser` (`user.controller.js`)
+
+---
+
+### 5. If User Does Not Exist 
+
+  ![alt text](./screenshots/404-not-found.png)
+
+- **Route**: `GET /api/search?name=...`
+- **Handler**: `searchUser` (`user.controller.js`)
+
+---
+
+### 6. Error Handler 
+
+  ![alt text](./screenshots/empty-fields.png)
+
+- **Route**: `GET /api/search`
+- **Handler**: `searchUser` (`user.controller.js`)
+
 ---
 
 ### OpenAPI documentation
