@@ -110,20 +110,21 @@ Authorization: Bearer <your_token>
 ```
 project/
 ├── config/
-│   ├── db.js
+│   └── db.js
 ├── controllers/
-│   ├── authController.js
+│   └── authController.js
 ├── middleware/
 │   ├── auth.js
-│   └── error.js
+│   ├── error.js
 |   └── isOwner.js
 ├── routes/
-│   └── auth.js
-│   └── comments.js
-│   └── users.js
+│   ├── auth.js
+│   ├── comments.js
+│   ├── users.js
+│   └── vibes.js
 ├── screenshots/
 ├── utils/
-│   └── errorResponse.js
+│   ├── errorResponse.js
 │   └── generateToken.js
 ├── .gitignore
 ├── package-lock.json
